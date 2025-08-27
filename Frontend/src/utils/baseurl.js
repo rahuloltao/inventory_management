@@ -1,2 +1,2 @@
-const baseUrl = "http://localhost:8000/api"
+const baseUrl = `${process.env.REACT_APP_BACKEND_URL}/api`;
 export default baseUrl;
